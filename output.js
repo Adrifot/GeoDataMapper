@@ -1,7 +1,6 @@
 locationsArray = [
-	{latitude: 40.397415, longitude: 49.861328, info: "BK, baku"}, 
-	{latitude: 40.589783, longitude: 49.663525, info: "SMG, sumgayit"}, 
-	{latitude: 41.695923, longitude: 44.801979, info: "TB, tbilisi"}, 
-	{latitude: 44.205837, longitude: 27.311880, info: "CL, calarasi"}, 
-	{latitude: 44.440968, longitude: 26.104458, info: "B, bucuresti"}
+	{latitude: 44.427166, longitude: 26.102877, info: "Bucharest"}, 
+	{latitude: 44.818916, longitude: 20.459211, info: "Belgrad"}, 
+	{latitude: 42.692791, longitude: 23.290306, info: "Sofia"}, 
+	{latitude: 47.498028, longitude: 19.039640, info: "Budapest"}
 ]

@@ -3,7 +3,6 @@ async function initMap() {
     const gmap = document.getElementById("gmap");
     let bounds = new google.maps.LatLngBounds();
     const map = new google.maps.Map(gmap)
-    let nr = 1;
     
     map.setCenter(bounds.getCenter());
     map.fitBounds(bounds);
@@ -15,7 +14,6 @@ async function initMap() {
         let marker = new google.maps.Marker({
             position: {lat: location.latitude, lng: location.longitude},
             map: map,
-            label: ""+nr
         });
         let infoWindow = new google.maps.InfoWindow({
             content: location.info,
@@ -26,6 +24,5 @@ async function initMap() {
                 map
             });
         });
-        nr++;
     });
 }
