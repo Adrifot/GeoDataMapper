@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    float latitude, longitude;
+    float lat, lng;
     char info[80];
     int started = 0;
-    puts("{");
-    puts("\t\"locations\": [");
-    while(scanf("%f, %f, %79[^\n]", &latitude, &longitude, info) == 3) {
+    puts("locations = [");
+    while(scanf("%f, %f, %79[^\n]", &lat, &lng, info) == 3) {
         if(started) printf(", \n");
         else started = 1;
-        printf("\t\t{\"latitude\": %f, \"longitude\": %f, \"info\": \"%s\"}", latitude, longitude, info);
+        printf("\t{latitude: %f, longitude: %f, info: \"%s\"}", lat, lng, info);
     }
-    puts("\n\t]\n}");
+    puts("\n]");
     return 0;
 }
