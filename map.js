@@ -15,8 +15,16 @@ async function initMap() {
         let marker = new google.maps.Marker({
             position: {lat: location.latitude, lng: location.longitude},
             map: map,
-            title: location.info,
             label: ""+nr
+        });
+        let infoWindow = new google.maps.InfoWindow({
+            content: location.info,
+        });
+        marker.addListener("click", () => {
+            infoWindow.open({
+                anchor: marker,
+                map
+            });
         });
         nr++;
     });
