@@ -1,6 +1,6 @@
 locationsArray = [
-	{latitude: 44.427166, longitude: 26.102877, info: "Bucharest"}, 
-	{latitude: 44.818916, longitude: 20.459211, info: "Belgrad"}, 
-	{latitude: 42.692791, longitude: 23.290306, info: "Sofia"}, 
-	{latitude: 47.498028, longitude: 19.039640, info: "Budapest"}
+	{latitude: 32.306950, longitude: -64.772652, info: "North Shore Village"}, 
+	{latitude: 32.269749, longitude: -64.876617, info: "Hog Bay"}, 
+	{latitude: 32.302292, longitude: -64.865471, info: "Somerset Village"}, 
+	{latitude: 30.401154, longitude: -71.678139, info: "Random Sea Point #1"}
 ]

@@ -1,3 +1,6 @@
+// CSV to JS Converter
+// Converts .csv geographical data to an array of JS objects that can be displayed on a map
+
 #include <stdio.h>
 
 int main() {
