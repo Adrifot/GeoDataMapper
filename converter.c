@@ -4,7 +4,7 @@ int main() {
     float lat, lng;
     char info[80];
     int started = 0;
-    puts("locations = [");
+    puts("locationsArray = [");
     while(scanf("%f, %f, %79[^\n]", &lat, &lng, info) == 3) {
         if(started) printf(", \n");
         else started = 1;
