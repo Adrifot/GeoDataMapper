@@ -1,3 +1,4 @@
 config.js
 *.exe
 *.txt
+.vscode
